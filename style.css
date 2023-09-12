@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  background-color: #22223B;
 }
 
 #maindiv{
@@ -20,6 +21,27 @@ body{
     width: 900px;
     height:auto;
 }
+
+.menu{
+  margin-top:10px;
+  padding:10px;
+      display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    
+  
+}
+.menu a{
+   background-color: #9A8C98;
+  padding:20px;
+  width:100px;
+border-radius: 5%;
+  text-align: center;
+  text-decoration:none;
+  color: #F2E9E4;
+  font-size: 25px;
+}
+
 
 
 #maincontent{
@@ -64,6 +86,7 @@ body{
 
 #myname{
     font-size: 60px;
+  color:#F2E9E4;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
